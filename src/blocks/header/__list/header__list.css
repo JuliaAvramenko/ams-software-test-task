@@ -1,0 +1,8 @@
+.header__list {
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+}

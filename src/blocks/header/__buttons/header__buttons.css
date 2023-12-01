@@ -1,0 +1,7 @@
+.header__buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-left: 179px;
+
+}

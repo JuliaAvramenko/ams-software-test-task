@@ -1,0 +1,12 @@
+:root {
+    --circle-diameter: 24px;
+    --range-wrapper-width: 200px;
+}
+
+.container {
+    font-family: "Inter-Regular", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #4b4b4b;
+    width: 1440px;
+}
