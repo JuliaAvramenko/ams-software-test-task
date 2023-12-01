@@ -1,4 +1,14 @@
-@import url(../blocks/container/container.css);
+body {
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+}
+
+* {
+    outline: 0.5px solid blue;
+}
+
+@import url(../blocks/pages/pages.css);
 @import url(../blocks/header/__button-icon/header__button-icon.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
@@ -9,6 +19,56 @@
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_green/button_green.css);
+@import url(../blocks/button/_blue/button_blue.css);
+@import url(../blocks/button/_article/button__article.css);
+@import url(../blocks/download/__button-wrapper/download__button-wrapper.css);
+@import url(../blocks/download/__circle/download__circle.css);
+@import url(../blocks/download/__circles/download__circles.css);
+@import url(../blocks/download/__container/download__container.css);
+@import url(../blocks/download/__icon/download__icon.css);
+@import url(../blocks/download/__image/download__image.css);
+@import url(../blocks/download/__paragraph/download__paragraph.css);
+@import url(../blocks/download/__text/download__text.css);
+@import url(../blocks/download/__wrapper/download__wrapper.css);
+@import url(../blocks/download/download.css);
+@import url(../blocks/video/__icon/video__icon.css);
+@import url(../blocks/video/__paragraph/video__paragraph.css);
+@import url(../blocks/video/__text/video__text.css);
+@import url(../blocks/video/__wrapper/video__wrapper.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__video/video__video.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/faq/__article-title/faq__article-title.css);
+@import url(../blocks/faq/__article/faq__article.css);
+@import url(../blocks/faq/__icon/faq__icon.css);
+@import url(../blocks/faq/__text/faq__text.css);
+@import url(../blocks/faq/__title/faq__title.css);
+@import url(../blocks/faq/__wrapper/faq__wrapper.css);
+@import url(../blocks/faq/__articles/faq__articles.css);
+@import url(../blocks/faq/faq.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__copywrite/footer__copywrite.css);
+@import url(../blocks/footer/__item-wrapper/footer__item-wrapper.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/top/__avatar/top__avatar.css);
+@import url(../blocks/top/__container/top__container.css);
+@import url(../blocks/top/__description/top__description.css);
+@import url(../blocks/top/__icon/top__icon.css);
+@import url(../blocks/top/__name/top__name.css);
+@import url(../blocks/top/__parapragh/top__paragrah.css);
+@import url(../blocks/top/__position/top__position.css);
+@import url(../blocks/top/__profile/top__profile.css);
+@import url(../blocks/top/__text/top__text.css);
+@import url(../blocks/top/__title/top__title.css);
+@import url(../blocks/top/__wrapper/top__wrapper.css);
+@import url(../blocks/top/top.css);
+@import url(../blocks/main/main.css);
+/* @import url(../blocks);
 @import url(../blocks);
 @import url(../blocks);
 @import url(../blocks);
@@ -19,25 +79,4 @@
 @import url(../blocks);
 @import url(../blocks);
 @import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
+@import url(../blocks); */

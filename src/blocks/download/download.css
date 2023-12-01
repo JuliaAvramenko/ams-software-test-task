@@ -1,0 +1,5 @@
+.download {
+    display: flex;
+    column-gap: 42px;
+    margin-bottom: 60px;
+}

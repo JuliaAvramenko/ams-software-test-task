@@ -1,0 +1,6 @@
+.top__profile {
+    display: flex;
+    column-gap: 9px;
+    align-items: center;
+    margin-bottom: 61px;
+}

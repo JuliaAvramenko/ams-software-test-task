@@ -1,0 +1,6 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    width: 970px;
+    margin-left: 42px;
+}

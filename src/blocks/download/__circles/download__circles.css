@@ -1,5 +1,5 @@
-.header__buttons {
+.download__circles {
     display: flex;
     align-items: center;
-    column-gap: 12px;
+    column-gap: 8px;
 }

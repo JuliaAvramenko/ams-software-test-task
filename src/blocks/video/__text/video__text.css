@@ -1,0 +1,9 @@
+.video__text {
+    padding: 0;
+    margin: 0;
+    color: var(--black, #343A40);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}

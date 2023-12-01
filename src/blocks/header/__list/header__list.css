@@ -1,4 +1,6 @@
 .header__list {
+    padding: 0;
+    margin: 0;
     display: flex;
     column-gap: 25px;
     justify-content: center;

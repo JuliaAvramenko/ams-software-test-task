@@ -1,0 +1,8 @@
+.pages {
+    font-family: "Inter-Regular", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1440px;
+    background-color: pink;
+}

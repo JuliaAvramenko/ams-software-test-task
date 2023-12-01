@@ -1,0 +1,5 @@
+.footer__container {
+    display: flex;
+    column-gap: 87px;
+    margin-bottom: 48px;
+}
