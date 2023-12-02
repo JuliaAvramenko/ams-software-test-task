@@ -1,12 +1,13 @@
 body {
-    display: flex;
-    justify-content: center;
-    background-color: wheat;
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: wheat;
 }
 
-* {
+/* * {
     outline: 0.5px solid blue;
-}
+} */
 
 @import url(../blocks/pages/pages.css);
 @import url(../blocks/header/__button-icon/header__button-icon.css);
@@ -22,10 +23,12 @@ body {
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_green/button_green.css);
 @import url(../blocks/button/_blue/button_blue.css);
-@import url(../blocks/button/_article/button__article.css);
+@import url(../blocks/button/_article/button_article.css);
+@import url(../blocks/button/_article/_plus/button_article_plus.css);
 @import url(../blocks/download/__button-wrapper/download__button-wrapper.css);
 @import url(../blocks/download/__circle/download__circle.css);
 @import url(../blocks/download/__circles/download__circles.css);
+@import url(../blocks/download/__circle/_active/download__circle_active.css);
 @import url(../blocks/download/__container/download__container.css);
 @import url(../blocks/download/__icon/download__icon.css);
 @import url(../blocks/download/__image/download__image.css);
@@ -49,6 +52,7 @@ body {
 @import url(../blocks/faq/__wrapper/faq__wrapper.css);
 @import url(../blocks/faq/__articles/faq__articles.css);
 @import url(../blocks/faq/faq.css);
+@import url(../blocks/faq/__text/_short/faq__text_short.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__copywrite/footer__copywrite.css);
 @import url(../blocks/footer/__item-wrapper/footer__item-wrapper.css);
@@ -68,10 +72,15 @@ body {
 @import url(../blocks/top/__wrapper/top__wrapper.css);
 @import url(../blocks/top/top.css);
 @import url(../blocks/main/main.css);
-/* @import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup-container/popup-container.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/top/__house/top__house.css);
+@import url(../blocks/top/__bush/top__bush.css);
+
+/*
+
 @import url(../blocks);
 @import url(../blocks);
 @import url(../blocks);

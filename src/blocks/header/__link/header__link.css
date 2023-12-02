@@ -1,0 +1,8 @@
+.header__link {
+  color: #6b707e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  column-gap: 6px;
+}

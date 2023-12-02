@@ -1,17 +1,16 @@
 .button_green {
-    border-radius: 5px;
-    padding: 13px 19px;
-    column-gap: 9px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0.16px;
-    border: 1px solid #19B37D;
-    box-shadow: 0px 2px 22px 0px rgba(23, 120, 107, 0.43);
-    background: var(--buy, linear-gradient(87deg, #19B37D 13.35%, #188A7B 86.33%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+  border-radius: 5px;
+  padding: 13px 19px;
+  column-gap: 9px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  border: 1px solid #19b37d;
+  box-shadow: 0px 2px 22px 0px rgba(23, 120, 107, 0.43);
+  background: var(--buy, linear-gradient(87deg, #19b37d 13.35%, #188a7b 86.33%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -9,7 +9,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 console.log(__dirname)
 
 module.exports = {
-    entry: { main: './src/index.js' },
+    entry: { main: './src/scripts/index.js' },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.js',
@@ -59,7 +59,23 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html' // путь к файлу index.html
+            template: './src/index.html', // путь к файлу index.html
+            templateParameters: {
+                title: 'AMS Software Test Task',
+            },
+            meta: {
+                'viewport': 'width=device-width, initial-scale=1.0'
+            }
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'footer.html',
+            inject: false,
+            template: './src/footer.html' // путь к файлу other.html
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'menu.html',
+            inject: false,
+            template: './src/menu.html' // путь к файлу other.html
         }),
         new CleanWebpackPlugin(), // использовали плагин
         new MiniCssExtractPlugin() // подключение плагина для объединения файлов

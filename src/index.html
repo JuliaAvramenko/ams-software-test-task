@@ -1,212 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="#" />
+    <title><%=title%></title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="#">
-    <title>Accent Test Task</title>
-
-</head>
-
-<body>
+  <body>
     <div class="pages">
-        <header class="header">
+      <header class="header">
+        <img src="<%=require('./images/logo.svg')%>" alt="house" class="logo" />
+        <nav class="header__nav" w3-include-html="menu.html"></nav>
+        <div class="header__buttons">
+          <button class="button button_blue">
+            Скачать
+            <img src="<%=require('./images/arrow-download.svg')%>" alt="стрелка" class="button__icon" />
+          </button>
+          <button class="button button_green">
+            Купить
+            <img src="<%=require('./images/cart.svg')%>" alt="тележка" class="button__icon" />
+          </button>
+        </div>
+      </header>
 
-            <img src="<%=require('./images/logo.svg')%>" alt="house" class="logo">
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__item">Начало работы</li>
-                    <li class="header__item">Гид по строительству и дизайну</li>
-                    <li class="header__item">
-                        <img src="<%=require('./images/heart.svg')%>" alt="сердце" class="header__icon">
-
-                        Поддержка
-                    </li>
-                </ul>
-            </nav>
-            <div class="header__buttons">
-                <button class="button button_blue">Скачать
-                    <img src="<%=require('./images/arrow-download.svg')%>" alt="стрелка" class="button__icon">
-                </button>
-                <button class="button button_green">
-                    Купить
-                    <img src="<%=require('./images/cart.svg')%>" alt="тележка" class="button__icon">
-                </button>
+      <section class="top">
+        <img src="<%=require('./images/house.png')%>" alt="дом" class="top__house" />
+        <img src="<%=require('./images/bush.png')%>" alt="куст" class="top__bush" />
+        <div class="top__container">
+          <p class="top__text">Главная</p>
+          <img src="<%=require('./images/arrow-right.svg')%>" alt="стрелка вправо" class="top__icon" />
+          <p class="top__paragraph">Как выбрать отделку фасада для частного дома</p>
+        </div>
+        <h1 class="top__title">Как выбрать отделку фасада для частного дома</h1>
+        <p class="top__description">
+          Lorem ipsum dolor sit amet consectetur. Turpis risus lorem id faucibus convallis ut. Vel in nunc lacus
+          sagittis ac at varius
+        </p>
+        <div class="top__profile">
+          <img src="<%=require('./images/avatar.png')%>" alt="аватар" class="top__avatar" />
+          <div class="top__wrapper">
+            <p class="top__name">Арсений Даниленко</p>
+            <p class="top__position">Автор статьи</p>
+          </div>
+        </div>
+      </section>
+      <main class="main">
+        <section class="download">
+          <div class="download__container">
+            <img src="<%=require('./images/house-pic1.png')%>" alt="дом" data-index="0" class="download__image" />
+            <div class="download__circles">
+              <div class="download__circle"></div>
+              <div class="download__circle"></div>
+              <div class="download__circle"></div>
+              <div class="download__circle"></div>
             </div>
-
-
-        </header>
-
-        <section class="top">
-            <img src="<%=require('./images/house.png')%>" alt="дом" class="top__house">
-            <img src="<%=require('./images/bush.png')%>" alt="куст" class="top__bush">
-            <div class="top__container">
-                <p class="top__text">Главная</p>
-                <img src="<%=require('./images/arrow-right.svg')%>" alt="стрелка вправо" class="top__icon">
-                <p class="top__paragraph">Как выбрать отделку фасада для частного дома</p>
+          </div>
+          <div class="download__wrapper">
+            <p class="download__text">
+              Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec pretium est
+              nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincilesuada vel sodales
+              lobortis convallis auctor. At sit fames enim facilisis sem. Gravida elit placerat egestas tempor.
+            </p>
+            <div class="download__button-wrapper">
+              <button class="button button_blue">
+                Скачать бесплатно
+                <img src="<%=require('./images/arrow-download.svg')%>" alt="стрелка" class="button__icon" />
+              </button>
+              <span class="download__paragraph"
+                >Для
+                <img src="<%=require('./images/windows.svg')%>" alt="виндоуз" class="download__icon" />
+                Windows 7, 8, 10, 11
+              </span>
             </div>
-            <h1 class="top__title">Как выбрать отделку
-                фасада для частного дома</h1>
-            <p class="top__description">Lorem ipsum dolor sit amet consectetur. Turpis risus lorem
-                id faucibus convallis ut. Vel in nunc lacus sagittis ac at varius</p>
-            <div class="top__profile">
-                <img src="<%=require('./images/avatar.png')%>" alt="аватар" class="top__avatar">
-                <div class="top__wrapper">
-                    <p class="top__name">Арсений Даниленко</p>
-                    <p class="top__position">Автор статьи</p>
-                </div>
-            </div>
+          </div>
         </section>
-        <main class="main">
-            <section class="download">
-                <div class="download__container">
-                    <img src="<%=require('./images/house-pic.png')%>" alt="дом" class="download__image">
-                    <div class="download__circles">
-                        <img src="<%=require('./images/circle-small.svg')%>" alt="круг" class="download__circle">
-                        <img src="<%=require('./images/circle-big.svg')%>" alt="круг" class="download__circle">
-                        <img src="<%=require('./images/circle-small.svg')%>" alt="круг" class="download__circle">
-                        <img src="<%=require('./images/circle-small.svg')%>" alt="круг" class="download__circle">
-                    </div>
-                </div>
-                <div class="download__wrapper">
-                    <p class="download__text">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum
-                        consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt
-                        condimentum lacinia tincilesuada vel sodales lobortis convallis auctor. At sit fames enim
-                        facilisis sem. Gravida elit placerat egestas tempor.</p>
-                    <div class="download__button-wrapper">
-                        <button class="button button_blue">Скачать бесплатно
-                            <img src="<%=require('./images/arrow-download.svg')%>" alt="стрелка" class="button__icon">
-                        </button>
-                        <label class="download__paragraph">Для
-                            <img src="<%=require('./images/windows.svg')%>" alt="виндоуз" class="download__icon">
-                            Windows 7, 8, 10, 11</label>
-                    </div>
-                </div>
+        <section class="video">
+          <h2 class="video__title">Enim tincidunt interdum ipsum elementum</h2>
 
-            </section>
-            <section class="video">
-                <h2 class="video__title">Enim tincidunt interdum ipsum elementum</h2>
+          <div class="video__container">
+            <div class="video__overlay"></div>
+            <iframe
+              class="video__video"
+              width="971"
+              height="537"
+              src="https://www.youtube.com/embed/q1J6KgbWhZc"
+              title="ЭКСПЕРТИЗА ДОМА ПЕРЕД ПОКУПКОЙ | КАК НЕ КУПИТЬ СТРОЙХЛАМ?"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
 
-                <iframe class="video__video" width="971" height="537" src="https://www.youtube.com/embed/q1J6KgbWhZc"
-                    title="ЭКСПЕРТИЗА ДОМА ПЕРЕД ПОКУПКОЙ | КАК НЕ КУПИТЬ СТРОЙХЛАМ?" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <p class="video__paragraph">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum
-                    consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt
-                    condimentum lacinia tincidunt vivamus nunc ut quis elementum sed. Malesuada vel sodales lobortis
-                    convallis auctor. </p>
-                <div class="video__container">
-                    <div class="video__wrapper">
-                        <img src="<%=require('./images/bullitt.svg')%>" alt="стрелка вправо" class="video__icon">
-                        <p class="video__text">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem.
-                            Tincidunt condimentum lacinia tincidunt</p>
-                    </div>
-                    <div class="video__wrapper">
-                        <img src="<%=require('./images/bullitt.svg')%>" alt="стрелка вправо" class="video__icon">
-                        <p class="video__text">Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque
-                            neque aliquet eu amet. </p>
-                    </div>
-                    <div class="video__wrapper">
-                        <img src="<%=require('./images/bullitt.svg')%>" alt="стрелка вправо" class="video__icon">
-                        <p class="video__text">Fusce quis ultrices neque aliquet eu amet. Gravida elit placerat
-                            egestas. </p>
-                    </div>
-                    <div class="video__wrapper">
-                        <img src="<%=require('./images/bullitt.svg')%>" alt="стрелка вправо" class="video__icon">
-                        <p class="video__text">At sit fames enim facilisis sem. Gravida elit placerat egestas tempor.
-                            Enim tincidunt interdum ipsum elementum </p>
-                    </div>
-                </div>
-            </section>
-            <section class="faq">
-                <h2 class="faq__title">Вопрос - Ответ</h2>
-                <div class="faq__articles">
-                    <article class="faq__article">
-                        <div class="faq__wrapper">
-                            <h3 class="faq__article-title">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus
-                                id
-                                sem?</h3>
-                            <button class="button button_article">
-                                <img src="<%=require('./images/minus.svg')%>" alt="плюс-минус" class="faq__icon">
-                            </button>
-                        </div>
-                        <p class="faq__text">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum
-                            consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt
-                            condimentum lacinia tincidunt vivamus nunc ut quis elementum sed. Dictum consectetur et nec
-                            pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet.
-                            Lorem
-                            ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec
-                            pretium
-                            est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt
-                            vivamus nunc ut quis elementum sed. Dictum consectetur et nec pretium est nisi. Fusce quis
-                            ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet </p>
-                    </article>
-                    <article class="faq__article">
-                        <div class="faq__wrapper">
-                            <h3 class="faq__article-title">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus
-                                id
-                                sem?</h3>
-                            <button class="button button_article">
-                                <img src="<%=require('./images/minus.svg')%>" alt="плюс-минус" class="faq__icon">
-                            </button>
-                        </div>
-                        <p class="faq__text">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum
-                            consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt
-                            condimentum lacinia tincidunt vivamus nunc ut quis elementum sed. Dictum consectetur et nec
-                            pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet.
-                            Lorem
-                            ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec
-                            pretium
-                            est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt
-                            vivamus nunc ut quis elementum sed. Dictum consectetur et nec pretium est nisi. Fusce quis
-                            ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet </p>
-                    </article>
-                    <article class="faq__article">
-                        <div class="faq__wrapper">
-                            <h3 class="faq__article-title">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus
-                                id
-                                sem?</h3>
-                            <button class="button button_article">
-                                <img src="<%=require('./images/minus.svg')%>" alt="плюс-минус" class="faq__icon">
-                            </button>
-                        </div>
-                        <p class="faq__text">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum
-                            consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt
-                            condimentum lacinia tincidunt vivamus nunc ut quis elementum sed. Dictum consectetur et nec
-                            pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet.
-                            Lorem
-                            ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec
-                            pretium
-                            est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt
-                            vivamus nunc ut quis elementum sed. Dictum consectetur et nec pretium est nisi. Fusce quis
-                            ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet </p>
-                    </article>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="footer__container">
-                <img src="<%=require('./images/logo.svg')%>" alt="house" class="logo">
-                <div class="footer__wrapper">
-                    <div class="footer__item-wrapper">
-                        <p class="footer__text">Инструкции по работе с программой</p>
-                        <p class="footer__text">Рейтинг программ для планировки дома</p>
-                    </div>
-                    <div class="footer__item-wrapper">
-                        <p class="footer__text">Скачать бесплатно</p>
-                        <p class="footer__text">Цены и лицензии</p>
-                    </div>
-                    <div class="footer__item-wrapper">
-                        <p class="footer__text">Контакты</p>
-                        <p class="footer__text">Техническая поддержка</p>
-                    </div>
-                </div>
-
+          <p class="video__paragraph">
+            Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec pretium est
+            nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt vivamus nunc ut
+            quis elementum sed. Malesuada vel sodales lobortis convallis auctor.
+          </p>
+          <div class="video__container">
+            <div class="video__wrapper">
+              <img src="<%=require('./images/bullitt.svg')%>" alt="стрелка вправо" class="video__icon" />
+              <p class="video__text">
+                Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Tincidunt condimentum lacinia
+                tincidunt
+              </p>
             </div>
-            <p class="footer__copywrite">© Мой Дом 3D 2023 Копирование запрещено</p>
-        </footer>
+            <div class="video__wrapper">
+              <img src="<%=require('./images/bullitt.svg')%>" alt="стрелка вправо" class="video__icon" />
+              <p class="video__text">
+                Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque neque aliquet eu amet.
+              </p>
+            </div>
+            <div class="video__wrapper">
+              <img src="<%=require('./images/bullitt.svg')%>" alt="стрелка вправо" class="video__icon" />
+              <p class="video__text">Fusce quis ultrices neque aliquet eu amet. Gravida elit placerat egestas.</p>
+            </div>
+            <div class="video__wrapper">
+              <img src="<%=require('./images/bullitt.svg')%>" alt="стрелка вправо" class="video__icon" />
+              <p class="video__text">
+                At sit fames enim facilisis sem. Gravida elit placerat egestas tempor. Enim tincidunt interdum ipsum
+                elementum
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="faq">
+          <h2 class="faq__title">Вопрос - Ответ</h2>
+          <div class="faq__articles">
+            <article class="faq__article">
+              <div class="faq__wrapper">
+                <h3 class="faq__article-title">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem?</h3>
+                <button class="button button_article button_article_plus">
+                  <!-- <img src="<%=require('./images/minus.svg')%>" alt="плюс-минус" class="faq__icon"> -->
+                </button>
+              </div>
+              <p class="faq__text faq__text_short">
+                Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec pretium
+                est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt vivamus
+                nunc ut quis elementum sed. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque
+                aliquet eu amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur. Viverra nulla metus
+                id sem. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt
+                condimentum lacinia tincidunt vivamus nunc ut quis elementum sed. Dictum consectetur et nec pretium est
+                nisi. Fusce quis ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet
+              </p>
+            </article>
+            <article class="faq__article">
+              <div class="faq__wrapper">
+                <h3 class="faq__article-title">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem?</h3>
+                <button class="button button_article button_article_plus">
+                  <!-- <img src="<%=require('./images/minus.svg')%>" alt="плюс-минус" class="faq__icon"> -->
+                </button>
+              </div>
+              <p class="faq__text faq__text_short">
+                Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec pretium
+                est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt vivamus
+                nunc ut quis elementum sed. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque
+                aliquet eu amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur. Viverra nulla metus
+                id sem. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt
+                condimentum lacinia tincidunt vivamus nunc ut quis elementum sed. Dictum consectetur et nec pretium est
+                nisi. Fusce quis ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet
+              </p>
+            </article>
+            <article class="faq__article">
+              <div class="faq__wrapper">
+                <h3 class="faq__article-title">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem?</h3>
+                <button class="button button_article button_article_plus">
+                  <!-- <img src="<%=require('./images/minus.svg')%>" alt="плюс-минус" class="faq__icon"> -->
+                </button>
+              </div>
+              <p class="faq__text faq__text_short">
+                Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec pretium
+                est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt vivamus
+                nunc ut quis elementum sed. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque
+                aliquet eu amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur. Viverra nulla metus
+                id sem. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt
+                condimentum lacinia tincidunt vivamus nunc ut quis elementum sed. Dictum consectetur et nec pretium est
+                nisi. Fusce quis ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" w3-include-html="footer.html"></footer>
     </div>
-</body>
-
+    <div class="popup">
+      <div class="popup-container">
+        <iframe
+          class="popup-container__video"
+          width="971"
+          height="537"
+          src=""
+          title="ЭКСПЕРТИЗА ДОМА ПЕРЕД ПОКУПКОЙ | КАК НЕ КУПИТЬ СТРОЙХЛАМ?"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </body>
 </html>

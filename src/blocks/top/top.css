@@ -1,18 +1,9 @@
 .top {
-    display: flex;
-    flex-direction: column;
-    padding-left: 165px;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%), linear-gradient(90deg, #E9DEFA 0%, #FBFCDB 100%);
-    position: relative;
-}
-
-.top__house {
-    position: absolute;
-    right: 0;
-}
-
-.top__bush {
-    position: absolute;
-    bottom: 0;
-    right: 578px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 165px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%),
+    linear-gradient(90deg, #e9defa 0%, #fbfcdb 100%);
+  position: relative;
+  margin-bottom: 60px;
 }

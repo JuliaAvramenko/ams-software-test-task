@@ -1,7 +1,6 @@
 .header__nav {
-    display: flex;
-    margin-left: 179px;
-    margin-right: 40px;
-    width: 530px;
-
+  display: flex;
+  margin-left: 179px;
+  margin-right: 40px;
+  width: 530px;
 }

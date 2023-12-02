@@ -1,5 +1,6 @@
 .download__circles {
-    display: flex;
-    align-items: center;
-    column-gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 7px;
 }

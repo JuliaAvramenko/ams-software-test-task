@@ -7,6 +7,7 @@
     "build": "webpack --mode production",
     "dev": "webpack serve",
     "predeploy": "npm run build",
+    "format": "prettier --write .",
     "deploy": "gh-pages -d dist -t true"
   },
   "author": "Julia Avramenko",
@@ -24,6 +25,7 @@
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss-loader": "^7.3.3",
+    "prettier": "^3.1.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"

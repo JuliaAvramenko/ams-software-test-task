@@ -1,5 +1,5 @@
 .header__buttons {
-    display: flex;
-    align-items: center;
-    column-gap: 12px;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
 }

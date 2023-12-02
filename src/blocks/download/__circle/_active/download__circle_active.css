@@ -1,0 +1,5 @@
+.download__circle_active {
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(211deg, #999595 16.04%, #585858 85.53%);
+}

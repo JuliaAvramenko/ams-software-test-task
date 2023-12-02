@@ -1,13 +1,13 @@
 .button_blue {
-    column-gap: 9px;
-    padding: 13px 19px;
-    border-radius: 5px;
-    background: linear-gradient(268deg, #0057FF 1.64%, #259BFF 97.95%);
-    box-shadow: 0px 2px 22px 0px rgba(0, 87, 255, 0.43);
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.16px;
+  column-gap: 9px;
+  padding: 13px 19px;
+  border-radius: 5px;
+  background: linear-gradient(268deg, #0057ff 1.64%, #259bff 97.95%);
+  box-shadow: 0px 2px 22px 0px rgba(0, 87, 255, 0.43);
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.16px;
 }
