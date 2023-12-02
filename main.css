@@ -68,4 +68,4 @@
 .footer__link{color:#8d8f91;text-decoration:none}
 .top__house{position:absolute;right:0}
 .top__bush{bottom:0;position:absolute;right:578px}
-body{background-color:wheat;display:flex;font-family:Nunito Sans,sans-serif;justify-content:center}
+body{display:flex;font-family:Nunito Sans,sans-serif;justify-content:center}
